@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/index.css"/>
+  <!-- 页面切换动画插件-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="plug-in/page-transitions/css/default.css" />
+  <link rel="stylesheet" type="text/css" href="plug-in/page-transitions/css/component.css" />
+  <link rel="stylesheet" type="text/css" href="plug-in/page-transitions/css/animations.css" />
+  <script src="plug-in/page-transitions/js/modernizr.custom.js"></script>
+  <!-- 泡泡按钮-->
+  <link rel="stylesheet" type="text/css" href="plug-in/bubble_button/css/page.css" />
+  <link rel="stylesheet" type="text/css" href="plug-in/bubble_button/buttons/buttons.css" />
+  <!-- 飞机大战CSS-->
+  <link rel="stylesheet" href="css/warcraft.css"/>
+  <link rel="stylesheet" href="css/animate.css"/>
+
+</head>
+<body>
+<div class="bg"></div>
+<div class="content">
+  <div id="pt-main" class="pt-perspective">
+    <div class="pt-page pt-page-1 pt-page-scaleUp pt-page-delay300">
+      <div class="index_select">
+        <a class="button big blue"><div>个人简介</div></a>
+        <a class="button big green play_game"><div>玩游戏</div></a>
+        <a class="button big orange"><div>插件分享</div></a>
+        <a class="button big gray"><div>待开发</div></a>
+      </div>
+    </div>
+    <!-- 给要准备显示的页面添加 “pt-page-ready” -->
+    <div class="pt-page pt-page-2 pt-page-ready">
+
+    </div>
+  </div>
+</div>
+</body>
+</html>
+<script src="plug-in/jquery-2.0.1.min.js"></script>
+<script src="js/common.js"></script>
+<script src="plug-in/page-transitions/js/pagetransitions.js"></script>
+<script src="js/index.js"></script>
+

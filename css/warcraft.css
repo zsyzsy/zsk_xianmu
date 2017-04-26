@@ -1,0 +1,222 @@
+
+.war_content{
+    width:500px;
+    height:100%;
+    background:url(../img/map.jpg);
+    background-size: 100% 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.game_explain{
+    width:500px;
+    height:100%;
+    position: absolute;
+    background-color: white;
+}
+.game_cheats{
+    width:500px;
+    height:100%;
+    position: absolute;
+    background-color: gainsboro;
+    text-align: center;
+    display: none;
+}
+.start_back{
+    width: 500px;
+    height: 100%;
+    background: url("../img/load.png");
+    background-size: 100% 100%;
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+}
+.game_win{
+    width: 500px;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+    z-index: 2000;
+}
+.game_win h1{
+    /*position: relative;*/
+    margin-top: 100px;
+    color:#d9b72a;
+    text-align: center;
+}
+.game_win p{
+    margin-top: 50px;
+    text-align: center;
+    color: #e2f041;
+}
+.game_win span{
+    color: #08f2cc;
+}
+.btn_start{
+    background-color:#9dc6d0;
+    font-size: 16px;
+    font-weight: bold;
+    width: 180px;
+    outline: none;
+    padding:10px;
+    position:relative;
+    color:#fff;
+    box-shadow: inset 0 1px 0 #cad0c5, 0 6px 0 #3c423f;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn_start:active{
+    top:7px;
+    box-shadow: inset 0 0 0 #b2f17f;
+    color: #156785;
+}
+.start_div{
+    /*margin-top: 50%;*/
+}
+.btn_explain{
+    background-color:#609290;
+    font-size: 16px;
+    font-weight: bold;
+    width: 180px;
+    outline: none;
+    padding:10px;
+    position:relative;
+    color:#fff;
+    box-shadow: inset 0 1px 0 #cad0c5, 0 6px 0 #3c423f;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn_explain:active{
+    top:7px;
+    box-shadow: inset 0 0 0 #b2f17f;
+    color: #156785;
+}
+.explain_div{
+    margin-top: 50px;
+}.btn_cheats{
+     background-color:#c1d0bc;
+     font-size: 16px;
+     font-weight: bold;
+     width: 180px;
+     outline: none;
+     padding:10px;
+     position:relative;
+     color:#fff;
+     box-shadow: inset 0 1px 0 #cad0c5, 0 6px 0 #3c423f;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+.btn_cheats:active{
+    top:7px;
+    box-shadow: inset 0 0 0 #b2f17f;
+    color: #156785;
+}
+.cheats_div{
+    margin-top: 50px;
+}
+.myplane{
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/my_1.png");
+    background-size: 100% 100%;
+    position: absolute;
+    /*outline: 2px solid red;*/
+    left: 200px;
+}
+.real_score{
+    top:5px;
+    left: 5px;
+    position: absolute;
+    color: #ffad39;
+    font-family: "Microsoft YaHei", "SimSun", "Verdana";
+}
+.game_again,.game_good_bye{
+    text-align: center;
+    margin-top: 50px;
+}
+.btn_game_again {
+    background-color: #738745;
+    font-size: 16px;
+    font-weight: bold;
+    width: 180px;
+    outline: none;
+    padding: 10px;
+    position: relative;
+    color: #fff;
+    box-shadow: inset 0 1px 0 #cad0c5, 0 6px 0 #3c423f;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn_game_good_bye {
+    background-color: #62b7c4;
+    font-size: 16px;
+    font-weight: bold;
+    width: 180px;
+    outline: none;
+    padding: 10px;
+    position: relative;
+    color: #fff;
+    box-shadow: inset 0 1px 0 #cad0c5, 0 6px 0 #3c423f;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn_game_again:active{
+    top:7px;
+    box-shadow: inset 0 0 0 #b2f17f;
+    color: #156785;
+}
+.btn_game_good_bye:active{
+    top:7px;
+    box-shadow: inset 0 0 0 #b2f17f;
+    color: #156785;
+}
+.game_explain h1{
+    padding: 30px;
+    color: peru;
+    text-align: center;
+}
+.game_explain span{
+    color: #00aced;
+}
+.game_explain{
+    background-color: gainsboro;
+    display: none;
+}
+.btn_exit{
+    background-color:#c1d0bc;
+    font-size: 16px;
+    font-weight: bold;
+    width: 300px;
+    outline: none;
+    padding:10px;
+    position:relative;
+    color:white;
+    box-shadow: inset 0 1px 0 #cad0c5, 0 6px 0 #3c423f;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn_exit:active{
+    top:7px;
+    box-shadow: inset 0 0 0 #b2f17f;
+    color: #156785;
+}
+.exit_div{
+    margin-top: 50px;
+    text-align: center;
+}
+.btns_md{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*-ms代表ie内核识别码*/
+    -ms-transform:translate(-50%,-50%);
+    /*代表火狐内核识别码*/
+    -moz-transform:translate(-50%,-50%);
+    /*-webkit代表谷歌内核识别码*/
+    -webkit-transform:translate(-50%,-50%);
+    /*-o代表欧朋【opera】内核识别码*/
+    -o-transform:translate(-50%,-50%);
+    /*统一标识语句。。。最好这句话也写下去，符合w3c标准*/
+    transform:translate(-50%,-50%);
+}
